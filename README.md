@@ -78,11 +78,11 @@ Program
 
 
 
-Am = 2.55;
+Am = 6.1;
 
 fm = 464;
 
-Ac = 5.1;
+Ac = 12.2;
 
 fc = 4640;
 
@@ -111,10 +111,12 @@ plot(t,s);
 
 
 
+
 Output Waveform
 
 
-<img width="610" height="460" alt="image" src="https://github.com/user-attachments/assets/876d467a-556f-4482-98a8-a0f8bfaed341" />
+
+<img width="610" height="460" alt="image" src="https://github.com/user-attachments/assets/bfe3a567-0574-4f64-a078-1f045ea5c1dc" />
 
 
 
