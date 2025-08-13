@@ -78,7 +78,29 @@ Program
 
 
 
+Am = 2.55;
+fm = 464;
+Ac = 5.1;
+fc = 4640;
+fs = 46400;
+t = 0:1/fs:3/fm;
+m = Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c = Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+s = (Ac+m).*cos(2*3.14*fc*t);
+subplot(3,1,3);
+plot(t,s);
+
+
+
+
 Output Waveform
+
+
+<img width="610" height="460" alt="image" src="https://github.com/user-attachments/assets/876d467a-556f-4482-98a8-a0f8bfaed341" />
 
 
 
